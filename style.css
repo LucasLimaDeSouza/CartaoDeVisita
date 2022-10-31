@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --Vermelho: #F03A21;
+    --Amarelo: #E0E32D;
+    --Caixas: #F2F0F0;
+    --Corpo: #FFFFFF;
+}
+
+
+
+main {
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.profile{
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    margin: 2rem 6.3rem;
+    
+}
+
+b {
+    font-size: 0.9rem;
+    font-weight: revert;
+}
+
+.caixaInfo{
+    
+    margin-top: 0.5rem;
+}
+.caixaStack{
+    margin-top: 1.6rem;
+}
+
+.stacks, .stackName{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+.city {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+.imgStack {
+
+    margin-right:0.2rem;
+
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxAboutMe {
+    text-align: left;
+    
+}
+p {
+    margin-top: 1.3rem;
+}
+
+.skillsContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+.hardSkills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    
+    margin-top: 3.4rem;
+    border-radius: 0.5rem;
+    letter-spacing: 0.15em;
+    
+    
+    width: 21.4rem;
+    height: 12.6rem;
+    background: var(--Caixas);
+}
+
+.nameSkills{
+    position: absolute;
+    margin-bottom: 8.5rem;
+}
+
+ul{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+li{
+    padding-bottom: 0.5rem;
+
+}
+.listButton{
+    list-style: none;
+    border-color: var(--Caixas);
+    margin-top: 3.5rem;
+    padding-left: 1rem;
+    width: 112px;
+    
+    gap: 1rem;
+}
+
+a {
+    letter-spacing: 0.05em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    border: none;  
+}
+
+label {
+    color: black;
+    cursor: pointer;
+}
+
+/*Queries ///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Queries ///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Queries ///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 511px) { 
+
+    body {
+        border-top: 25px solid var(--Vermelho);
+        border-bottom: 25px solid var(--Amarelo);
+    }
+    
+    .eu {
+        width:8rem;
+    }
+    
+    .aboutMe {
+        width: 20.4rem;
+    }
+    
+    .profile {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        
+    }
+
+    .boxAboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto ;
+    }
+    
+    .skillsContact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        gap: 0rem;
+    }
+    
+    .hardSkills {
+        margin-top: 0.4rem;
+        width: 90vw;
+    }
+}
+@media (min-width: 512px) and (max-width: 779px) {
+    
+    body {
+        border-top: 25px solid var(--Vermelho);
+        border-bottom: 25px solid var(--Amarelo);
+    }
+    
+    .eu {
+        width:8rem;
+    }
+    
+    .aboutMe {
+        width: 20.4rem;
+    }
+    
+    .profile {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        
+    }
+
+    .boxAboutMe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2rem;
+        width: 100vw;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0.5rem ;
+    }
+    
+    .skillsContact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        gap: 0rem;
+    }
+    
+    .hardSkills {
+        margin-top: 0.4rem;
+        width: 90vw;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 1214px){
+
+    body {
+        border-top: 25px solid var(--Vermelho);
+        border-bottom: 25px solid var(--Amarelo);
+    }
+    
+    .eu {
+    width:8rem;
+    
+}
+    .profile {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0.5rem ;
+    }
+    
+    .skillsContact {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        margin-top: 4.4rem;
+    }
+
+    .hardSkills {
+        margin-top: 0.4rem;
+    }
+
+    .caixaStack {
+        margin-left: 6rem;
+    }
+}
