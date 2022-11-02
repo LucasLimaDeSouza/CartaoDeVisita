@@ -1,5 +1,11 @@
 <h1 align="center">Cartão de Visita</h1>
 
+<div align="center">
+  <a align="center" href="https://lucaslimadesouza.github.io/CartaoDeVisita/">Abrir Cartão de Visita</a>
+</div>
+<br>
+<br>
+<br>
 <p align="center">
   Desenvolvido utilizando <b>HTML5</b> e <b>CSS3</b> 
 </p>
@@ -9,7 +15,7 @@
 </div> 
 
 <p align="center">
-   Cartão de Visita é <b>responsivo</b>, utilizando o <b>Media Queries</b> para os <b>Breakinpoints</b> 
+   Cartão de Visita é <b>responsivo</b>, utilizando o <b>Media Queries</b> para os <b>Breakpoints</b> 
 </p>
 
 <h2 align="center">Mobile</h2>
